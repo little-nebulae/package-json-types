@@ -10,6 +10,9 @@
     ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsdown",
     "try": "ttsx ./src/try.ts",
